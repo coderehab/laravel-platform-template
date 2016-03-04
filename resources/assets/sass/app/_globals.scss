@@ -1,0 +1,145 @@
+
+.pagewrap {
+	max-width: $max-page-width;
+	width:100%;
+	@include pie-clearfix();
+	@include box-sizing();
+	padding: 2%;
+	margin:auto;
+}
+
+.floatleft{
+	float:left;
+}
+
+.floatright{
+	float:right;
+}
+
+form {
+	margin:0;
+	input, textarea, select {
+		border:2px solid #DADADA;
+		width:100%;
+		box-sizing: border-box;
+		padding: 0 10px;
+		height:40px;
+		font-size:14px;
+
+		appearance:none;
+		-moz-appearance:none; /* Firefox */
+		-webkit-appearance:none; /* Safari and Chrome */
+
+		@include box-sizing();
+		@include border-radius(5px);
+		@include input-placeholder {
+			color: #999;
+		}
+	}
+
+	input[type=checkbox] {
+		width:auto;
+		display: inline-block;
+		vertical-align: middle;
+		@include border-radius(5px);
+		border:2px solid $gray3;
+		height: auto;
+		padding:0;
+		width:20px;
+		height:20px;
+		cursor: pointer;
+		&:focus{
+			outline: 0 !important;
+		}
+		&:checked{
+			outline: 0;
+			background:url('../images/check-icon.png');
+			background-size: contain;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+	}
+
+	label {
+		margin:15px 0 5px 0;
+		padding: 0;
+		display: inline-block;
+		clear: both;
+		vertical-align: middle;
+		font-family: $font2;
+		font-size:16px;
+		color:$color1;
+
+	}
+
+	textarea {
+		height:100px;
+		@include input-placeholder {
+			color: #999;
+		}
+	}
+
+	.error {
+		span {display: block; padding: 5px; color: #ff0000;}
+		input, select, textarea{
+			border-color:#ff0000;
+		}
+	}
+
+
+	@include pie-clearfix();
+}
+
+button, input[type=submit], .btn, .btn-inverse, .button{
+	@include single-transition(all, 0.2s);
+	display: inline-block;
+	background:$color1;
+	padding:9px 18px;
+	color:#fff;
+	outline: 0;
+	cursor: pointer;
+	border:0;
+	font-size:13px;
+	font-weight:bold;
+	font-family: $font1;
+	width:auto;
+	@include box-sizing();
+
+	appearance:none;
+	-moz-appearance:none; /* Firefox */
+	-webkit-appearance:none; /* Safari and Chrome */
+
+	&.full-width {
+		width: 100%;
+		text-align: center;
+	}
+
+	&.hover-white{
+		&:hover {
+			background: #fff;
+			color:$color1;
+		}
+	}
+
+	&:hover {
+		background: darken($color1, 5%);
+		color:#fff;
+	}
+}
+
+.btn-inverse, input[type=submit].btn-inverse {
+	background-color:$color2;
+	color:#fff;
+
+	&:hover {
+		background: darken($color2, 5%);
+		color:#fff;
+	}
+
+	&.hover-white{
+		&:hover {
+			background: #fff;
+			color:$color1;
+		}
+	}
+}

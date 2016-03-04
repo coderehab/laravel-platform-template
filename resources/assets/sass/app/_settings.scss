@@ -1,0 +1,117 @@
+//@import 'fonts';
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,100,400,700,500,600|Roboto+Condensed:400,700,300);
+
+//@import "core/functions";
+//@import "core/basic-setup";
+
+$font1: 'Roboto', sans-serif;
+$font2: 'Roboto Condensed', sans-serif;
+$font3: $font1;
+$font4: $font1;
+$font5: $font1;
+
+$color1: #82a417;
+$color2: #dc8c36;
+$color3: #bb9f2d;
+$color4: #b97695;
+$color5: #b97695;
+$color6: #b97695;
+
+$gray1: #493f47;
+$gray2: #544751;
+$gray3: #83747f;
+$gray4: #9B9B9B;
+$gray5: #ccc;
+
+$body-color: #f5f5f5;
+$text-color: $gray1;
+
+$susy: (
+	global-box-sizing: border-box,
+	use-custom: (rem: true)
+);
+
+.color-1 {color:$color1 !important}
+.color-2 {color:$color2 !important}
+.color-3 {color:$color3 !important}
+.color-4 {color:$color4 !important}
+.color-5 {color:$color5 !important}
+
+.gray-1 {color:$gray1 !important}
+.gray-2 {color:$gray2 !important}
+.gray-3 {color:$gray3 !important}
+.gray-4 {color:$gray4 !important}
+.gray-5 {color:$gray5 !important}
+
+.font-1 {font-family:$font1 !important}
+.font-2 {font-family:$font2 !important}
+.font-3 {font-family:$font3 !important}
+.font-4 {font-family:$font4 !important}
+.font-5 {font-family:$font5 !important}
+
+$max-page-width:1200px;
+$screen-size-mobile: 0px;
+$screen-size-tablet: 850px;
+$screen-size-desktop: 1020px;
+$screen-size-bigscreen: 1600px;
+
+html, body {
+	background-color: $body-color;
+	font-family: $font1;
+	font-size: 13px;
+	color: $text-color;
+	//line-height: 180%;
+	margin: 0;
+	padding: 0;
+	*{
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	a {
+		text-decoration:none;
+		color:$color1;
+		&:hover {
+			color:$color2;
+		}
+	}
+
+	hr {
+		margin-top:20px;
+		clear:both;
+		height:1px;
+		border:0;
+		background-color:#fff;
+		background-color:rgba(255,255,255, 0.5);
+	}
+
+	p, h1, h2, h3, h4, h5, h6, ul, ol{
+		&:first-child{margin-top:0;}
+		&:last-child{margin-bottom:0;}
+	}
+
+	p{
+		a{text-decoration:underline;}
+		a:hover{color:$color1;}
+	}
+
+	@include breakpoint(0px){
+		h1 {font-family:$font2; color: $gray1; font-size:45px; font-weight:700; margin:20px 0; line-height: 100%; }
+		h2 {font-family:$font2; color: $gray1; font-size:30px; font-weight:700; line-height: 100%; }
+		h3 {font-family:$font1; color: $gray1; font-size:24px; font-weight:700; line-height: 100%;}
+		h4 {font-family:$font1; font-size:16px; font-weight:300; line-height: 110%; }
+		h5 {}
+		h6 {}
+		p  {margin:10px 0 20px 0;}
+	}
+
+	@include breakpoint(1100px){
+		h1 {font-size:65px;}
+		h2 {font-size:38px;}
+		h3 {font-size:28px;}
+		h4 {font-size:18px;}
+		h5 {}
+		h6 {}
+		p  {margin:10px 0 20px 0;}
+	}
+}

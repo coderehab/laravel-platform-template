@@ -1,0 +1,1782 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,100,400,700,500,600|Roboto+Condensed:400,700,300);
+/* line 34, ../../../resources/assets/sass/app/_settings.scss */
+.color-1 {
+  color: #82a417 !important; }
+
+/* line 35, ../../../resources/assets/sass/app/_settings.scss */
+.color-2 {
+  color: #dc8c36 !important; }
+
+/* line 36, ../../../resources/assets/sass/app/_settings.scss */
+.color-3 {
+  color: #bb9f2d !important; }
+
+/* line 37, ../../../resources/assets/sass/app/_settings.scss */
+.color-4 {
+  color: #b97695 !important; }
+
+/* line 38, ../../../resources/assets/sass/app/_settings.scss */
+.color-5 {
+  color: #b97695 !important; }
+
+/* line 40, ../../../resources/assets/sass/app/_settings.scss */
+.gray-1 {
+  color: #493f47 !important; }
+
+/* line 41, ../../../resources/assets/sass/app/_settings.scss */
+.gray-2 {
+  color: #544751 !important; }
+
+/* line 42, ../../../resources/assets/sass/app/_settings.scss */
+.gray-3 {
+  color: #83747f !important; }
+
+/* line 43, ../../../resources/assets/sass/app/_settings.scss */
+.gray-4 {
+  color: #9B9B9B !important; }
+
+/* line 44, ../../../resources/assets/sass/app/_settings.scss */
+.gray-5 {
+  color: #ccc !important; }
+
+/* line 46, ../../../resources/assets/sass/app/_settings.scss */
+.font-1 {
+  font-family: "Roboto", sans-serif !important; }
+
+/* line 47, ../../../resources/assets/sass/app/_settings.scss */
+.font-2 {
+  font-family: "Roboto Condensed", sans-serif !important; }
+
+/* line 48, ../../../resources/assets/sass/app/_settings.scss */
+.font-3 {
+  font-family: "Roboto", sans-serif !important; }
+
+/* line 49, ../../../resources/assets/sass/app/_settings.scss */
+.font-4 {
+  font-family: "Roboto", sans-serif !important; }
+
+/* line 50, ../../../resources/assets/sass/app/_settings.scss */
+.font-5 {
+  font-family: "Roboto", sans-serif !important; }
+
+/* line 58, ../../../resources/assets/sass/app/_settings.scss */
+html, body {
+  background-color: #f5f5f5;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  color: #493f47;
+  margin: 0;
+  padding: 0; }
+  /* line 66, ../../../resources/assets/sass/app/_settings.scss */
+  html *, body * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  /* line 71, ../../../resources/assets/sass/app/_settings.scss */
+  html a, body a {
+    text-decoration: none;
+    color: #82a417; }
+    /* line 74, ../../../resources/assets/sass/app/_settings.scss */
+    html a:hover, body a:hover {
+      color: #dc8c36; }
+  /* line 79, ../../../resources/assets/sass/app/_settings.scss */
+  html hr, body hr {
+    margin-top: 20px;
+    clear: both;
+    height: 1px;
+    border: 0;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.5); }
+  /* line 89, ../../../resources/assets/sass/app/_settings.scss */
+  html p:first-child, html h1:first-child, html h2:first-child, html h3:first-child, html h4:first-child, html h5:first-child, html h6:first-child, html ul:first-child, html ol:first-child, body p:first-child, body h1:first-child, body h2:first-child, body h3:first-child, body h4:first-child, body h5:first-child, body h6:first-child, body ul:first-child, body ol:first-child {
+    margin-top: 0; }
+  /* line 90, ../../../resources/assets/sass/app/_settings.scss */
+  html p:last-child, html h1:last-child, html h2:last-child, html h3:last-child, html h4:last-child, html h5:last-child, html h6:last-child, html ul:last-child, html ol:last-child, body p:last-child, body h1:last-child, body h2:last-child, body h3:last-child, body h4:last-child, body h5:last-child, body h6:last-child, body ul:last-child, body ol:last-child {
+    margin-bottom: 0; }
+  /* line 94, ../../../resources/assets/sass/app/_settings.scss */
+  html p a, body p a {
+    text-decoration: underline; }
+  /* line 95, ../../../resources/assets/sass/app/_settings.scss */
+  html p a:hover, body p a:hover {
+    color: #82a417; }
+  @media (min-width: 0px) {
+    /* line 99, ../../../resources/assets/sass/app/_settings.scss */
+    html h1, body h1 {
+      font-family: "Roboto Condensed", sans-serif;
+      color: #493f47;
+      font-size: 45px;
+      font-weight: 700;
+      margin: 20px 0;
+      line-height: 100%; }
+    /* line 100, ../../../resources/assets/sass/app/_settings.scss */
+    html h2, body h2 {
+      font-family: "Roboto Condensed", sans-serif;
+      color: #493f47;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 100%; }
+    /* line 101, ../../../resources/assets/sass/app/_settings.scss */
+    html h3, body h3 {
+      font-family: "Roboto", sans-serif;
+      color: #493f47;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 100%; }
+    /* line 102, ../../../resources/assets/sass/app/_settings.scss */
+    html h4, body h4 {
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 110%; }
+    /* line 105, ../../../resources/assets/sass/app/_settings.scss */
+    html p, body p {
+      margin: 10px 0 20px 0; } }
+  @media (min-width: 1100px) {
+    /* line 109, ../../../resources/assets/sass/app/_settings.scss */
+    html h1, body h1 {
+      font-size: 65px; }
+    /* line 110, ../../../resources/assets/sass/app/_settings.scss */
+    html h2, body h2 {
+      font-size: 38px; }
+    /* line 111, ../../../resources/assets/sass/app/_settings.scss */
+    html h3, body h3 {
+      font-size: 28px; }
+    /* line 112, ../../../resources/assets/sass/app/_settings.scss */
+    html h4, body h4 {
+      font-size: 18px; }
+    /* line 115, ../../../resources/assets/sass/app/_settings.scss */
+    html p, body p {
+      margin: 10px 0 20px 0; } }
+
+/* line 2, ../../../resources/assets/sass/app/_globals.scss */
+.pagewrap {
+  max-width: 1200px;
+  width: 100%;
+  *zoom: 1;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 2%;
+  margin: auto; }
+  /* line 38, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  .pagewrap:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 11, ../../../resources/assets/sass/app/_globals.scss */
+.floatleft {
+  float: left; }
+
+/* line 15, ../../../resources/assets/sass/app/_globals.scss */
+.floatright {
+  float: right; }
+
+/* line 19, ../../../resources/assets/sass/app/_globals.scss */
+form {
+  margin: 0;
+  *zoom: 1; }
+  /* line 21, ../../../resources/assets/sass/app/_globals.scss */
+  form input, form textarea, form select {
+    border: 2px solid #DADADA;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+    font-size: 14px;
+    appearance: none;
+    -moz-appearance: none;
+    /* Firefox */
+    -webkit-appearance: none;
+    /* Safari and Chrome */
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
+    /* line 61, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+    form input:-moz-placeholder, form textarea:-moz-placeholder, form select:-moz-placeholder {
+      color: #999; }
+    /* line 64, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+    form input::-moz-placeholder, form textarea::-moz-placeholder, form select::-moz-placeholder {
+      color: #999; }
+    /* line 67, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+    form input:-ms-input-placeholder, form textarea:-ms-input-placeholder, form select:-ms-input-placeholder {
+      color: #999; }
+    /* line 56, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+    form input::-webkit-input-placeholder, form textarea::-webkit-input-placeholder, form select::-webkit-input-placeholder {
+      color: #999; }
+  /* line 40, ../../../resources/assets/sass/app/_globals.scss */
+  form input[type=checkbox] {
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 2px solid #83747f;
+    height: auto;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    cursor: pointer; }
+    /* line 51, ../../../resources/assets/sass/app/_globals.scss */
+    form input[type=checkbox]:focus {
+      outline: 0 !important; }
+    /* line 54, ../../../resources/assets/sass/app/_globals.scss */
+    form input[type=checkbox]:checked {
+      outline: 0;
+      background: url("../images/check-icon.png");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat; }
+  /* line 63, ../../../resources/assets/sass/app/_globals.scss */
+  form label {
+    margin: 15px 0 5px 0;
+    padding: 0;
+    display: inline-block;
+    clear: both;
+    vertical-align: middle;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    color: #82a417; }
+  /* line 75, ../../../resources/assets/sass/app/_globals.scss */
+  form textarea {
+    height: 100px; }
+    /* line 61, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+    form textarea:-moz-placeholder {
+      color: #999; }
+    /* line 64, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+    form textarea::-moz-placeholder {
+      color: #999; }
+    /* line 67, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+    form textarea:-ms-input-placeholder {
+      color: #999; }
+    /* line 56, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+    form textarea::-webkit-input-placeholder {
+      color: #999; }
+  /* line 83, ../../../resources/assets/sass/app/_globals.scss */
+  form .error span {
+    display: block;
+    padding: 5px;
+    color: #ff0000; }
+  /* line 84, ../../../resources/assets/sass/app/_globals.scss */
+  form .error input, form .error select, form .error textarea {
+    border-color: #ff0000; }
+  /* line 38, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  form:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 93, ../../../resources/assets/sass/app/_globals.scss */
+button, input[type=submit], .btn, .btn-inverse, .button {
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  display: inline-block;
+  background: #82a417;
+  padding: 9px 18px;
+  color: #fff;
+  outline: 0;
+  cursor: pointer;
+  border: 0;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  width: auto;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  appearance: none;
+  -moz-appearance: none;
+  /* Firefox */
+  -webkit-appearance: none;
+  /* Safari and Chrome */ }
+  /* line 112, ../../../resources/assets/sass/app/_globals.scss */
+  button.full-width, input[type=submit].full-width, .btn.full-width, .btn-inverse.full-width, .button.full-width {
+    width: 100%;
+    text-align: center; }
+  /* line 118, ../../../resources/assets/sass/app/_globals.scss */
+  button.hover-white:hover, input[type=submit].hover-white:hover, .btn.hover-white:hover, .btn-inverse.hover-white:hover, .button.hover-white:hover {
+    background: #fff;
+    color: #82a417; }
+  /* line 124, ../../../resources/assets/sass/app/_globals.scss */
+  button:hover, input[type=submit]:hover, .btn:hover, .btn-inverse:hover, .button:hover {
+    background: #708e14;
+    color: #fff; }
+
+/* line 130, ../../../resources/assets/sass/app/_globals.scss */
+.btn-inverse, input[type=submit].btn-inverse {
+  background-color: #dc8c36;
+  color: #fff; }
+  /* line 134, ../../../resources/assets/sass/app/_globals.scss */
+  .btn-inverse:hover, input[type=submit].btn-inverse:hover {
+    background: #d47f25;
+    color: #fff; }
+  /* line 140, ../../../resources/assets/sass/app/_globals.scss */
+  .btn-inverse.hover-white:hover, input[type=submit].btn-inverse.hover-white:hover {
+    background: #fff;
+    color: #82a417; }
+
+/* line 3, ../../../resources/assets/sass/app/admin/_globals.scss */
+.row {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  *zoom: 1;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  /* line 12, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/susy-2.2.9/sass/susy/output/support/_clearfix.scss */
+  .row:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  /* line 38, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 10, ../../../resources/assets/sass/app/admin/_globals.scss */
+.cols-1 {
+  width: 6.77966%;
+  float: left;
+  margin-left: 1.69492%; }
+  /* line 12, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-1:first-child {
+    margin-left: 0; }
+  /* line 15, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-1.centered {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important; }
+
+/* line 10, ../../../resources/assets/sass/app/admin/_globals.scss */
+.cols-2 {
+  width: 15.25424%;
+  float: left;
+  margin-left: 1.69492%; }
+  /* line 12, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-2:first-child {
+    margin-left: 0; }
+  /* line 15, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-2.centered {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important; }
+
+/* line 10, ../../../resources/assets/sass/app/admin/_globals.scss */
+.cols-3 {
+  width: 23.72881%;
+  float: left;
+  margin-left: 1.69492%; }
+  /* line 12, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-3:first-child {
+    margin-left: 0; }
+  /* line 15, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-3.centered {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important; }
+
+/* line 10, ../../../resources/assets/sass/app/admin/_globals.scss */
+.cols-4 {
+  width: 32.20339%;
+  float: left;
+  margin-left: 1.69492%; }
+  /* line 12, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-4:first-child {
+    margin-left: 0; }
+  /* line 15, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-4.centered {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important; }
+
+/* line 10, ../../../resources/assets/sass/app/admin/_globals.scss */
+.cols-5 {
+  width: 40.67797%;
+  float: left;
+  margin-left: 1.69492%; }
+  /* line 12, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-5:first-child {
+    margin-left: 0; }
+  /* line 15, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-5.centered {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important; }
+
+/* line 10, ../../../resources/assets/sass/app/admin/_globals.scss */
+.cols-6 {
+  width: 49.15254%;
+  float: left;
+  margin-left: 1.69492%; }
+  /* line 12, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-6:first-child {
+    margin-left: 0; }
+  /* line 15, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-6.centered {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important; }
+
+/* line 10, ../../../resources/assets/sass/app/admin/_globals.scss */
+.cols-7 {
+  width: 57.62712%;
+  float: left;
+  margin-left: 1.69492%; }
+  /* line 12, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-7:first-child {
+    margin-left: 0; }
+  /* line 15, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-7.centered {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important; }
+
+/* line 10, ../../../resources/assets/sass/app/admin/_globals.scss */
+.cols-8 {
+  width: 66.10169%;
+  float: left;
+  margin-left: 1.69492%; }
+  /* line 12, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-8:first-child {
+    margin-left: 0; }
+  /* line 15, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-8.centered {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important; }
+
+/* line 10, ../../../resources/assets/sass/app/admin/_globals.scss */
+.cols-9 {
+  width: 74.57627%;
+  float: left;
+  margin-left: 1.69492%; }
+  /* line 12, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-9:first-child {
+    margin-left: 0; }
+  /* line 15, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-9.centered {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important; }
+
+/* line 10, ../../../resources/assets/sass/app/admin/_globals.scss */
+.cols-10 {
+  width: 83.05085%;
+  float: left;
+  margin-left: 1.69492%; }
+  /* line 12, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-10:first-child {
+    margin-left: 0; }
+  /* line 15, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-10.centered {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important; }
+
+/* line 10, ../../../resources/assets/sass/app/admin/_globals.scss */
+.cols-11 {
+  width: 91.52542%;
+  float: left;
+  margin-left: 1.69492%; }
+  /* line 12, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-11:first-child {
+    margin-left: 0; }
+  /* line 15, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-11.centered {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important; }
+
+@media screen and (min-width: 1200px) {
+  /* line 25, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-1 {
+    width: 6.77966%;
+    float: left;
+    margin-left: 1.69492%; }
+    /* line 27, ../../../resources/assets/sass/app/admin/_globals.scss */
+    .cols-1:first-child {
+      margin-left: 0; }
+
+  /* line 25, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-2 {
+    width: 15.25424%;
+    float: left;
+    margin-left: 1.69492%; }
+    /* line 27, ../../../resources/assets/sass/app/admin/_globals.scss */
+    .cols-2:first-child {
+      margin-left: 0; }
+
+  /* line 25, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-3 {
+    width: 23.72881%;
+    float: left;
+    margin-left: 1.69492%; }
+    /* line 27, ../../../resources/assets/sass/app/admin/_globals.scss */
+    .cols-3:first-child {
+      margin-left: 0; }
+
+  /* line 25, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-4 {
+    width: 32.20339%;
+    float: left;
+    margin-left: 1.69492%; }
+    /* line 27, ../../../resources/assets/sass/app/admin/_globals.scss */
+    .cols-4:first-child {
+      margin-left: 0; }
+
+  /* line 25, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-5 {
+    width: 40.67797%;
+    float: left;
+    margin-left: 1.69492%; }
+    /* line 27, ../../../resources/assets/sass/app/admin/_globals.scss */
+    .cols-5:first-child {
+      margin-left: 0; }
+
+  /* line 25, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-6 {
+    width: 49.15254%;
+    float: left;
+    margin-left: 1.69492%; }
+    /* line 27, ../../../resources/assets/sass/app/admin/_globals.scss */
+    .cols-6:first-child {
+      margin-left: 0; }
+
+  /* line 25, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-7 {
+    width: 57.62712%;
+    float: left;
+    margin-left: 1.69492%; }
+    /* line 27, ../../../resources/assets/sass/app/admin/_globals.scss */
+    .cols-7:first-child {
+      margin-left: 0; }
+
+  /* line 25, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-8 {
+    width: 66.10169%;
+    float: left;
+    margin-left: 1.69492%; }
+    /* line 27, ../../../resources/assets/sass/app/admin/_globals.scss */
+    .cols-8:first-child {
+      margin-left: 0; }
+
+  /* line 25, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-9 {
+    width: 74.57627%;
+    float: left;
+    margin-left: 1.69492%; }
+    /* line 27, ../../../resources/assets/sass/app/admin/_globals.scss */
+    .cols-9:first-child {
+      margin-left: 0; }
+
+  /* line 25, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-10 {
+    width: 83.05085%;
+    float: left;
+    margin-left: 1.69492%; }
+    /* line 27, ../../../resources/assets/sass/app/admin/_globals.scss */
+    .cols-10:first-child {
+      margin-left: 0; }
+
+  /* line 25, ../../../resources/assets/sass/app/admin/_globals.scss */
+  .cols-11 {
+    width: 91.52542%;
+    float: left;
+    margin-left: 1.69492%; }
+    /* line 27, ../../../resources/assets/sass/app/admin/_globals.scss */
+    .cols-11:first-child {
+      margin-left: 0; } }
+/* line 35, ../../../resources/assets/sass/app/admin/_globals.scss */
+.right {
+  float: right; }
+
+/* line 36, ../../../resources/assets/sass/app/admin/_globals.scss */
+.left {
+  float: left; }
+
+/* line 41, ../../../resources/assets/sass/app/admin/_globals.scss */
+.btn.green {
+  background-color: #b97695;
+  color: #fff; }
+
+/* line 47, ../../../resources/assets/sass/app/admin/_globals.scss */
+.active {
+  color: #b97695;
+  font-size: 10px !important; }
+
+/* line 48, ../../../resources/assets/sass/app/admin/_globals.scss */
+.none-active {
+  color: #82a417;
+  font-size: 10px !important; }
+
+/* line 50, ../../../resources/assets/sass/app/admin/_globals.scss */
+.error {
+  font-size: 16px; }
+
+/* line 52, ../../../resources/assets/sass/app/admin/_globals.scss */
+.error-1 {
+  color: red; }
+
+/* line 53, ../../../resources/assets/sass/app/admin/_globals.scss */
+.error-2 {
+  color: orange; }
+
+/* line 54, ../../../resources/assets/sass/app/admin/_globals.scss */
+.error-3 {
+  color: yellow; }
+
+/* line 57, ../../../resources/assets/sass/app/admin/_globals.scss */
+form label {
+  color: #474747;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px; }
+/* line 64, ../../../resources/assets/sass/app/admin/_globals.scss */
+form input, form textarea, form select {
+  font-family: "Roboto", sans-serif;
+  background-color: whitesmoke;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  padding: 8px 10px;
+  font-size: 15px;
+  font-weight: 300; }
+  /* line 61, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+  form input:-moz-placeholder, form textarea:-moz-placeholder, form select:-moz-placeholder {
+    opacity: 0.42;
+    color: #474747;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px; }
+  /* line 64, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+  form input::-moz-placeholder, form textarea::-moz-placeholder, form select::-moz-placeholder {
+    opacity: 0.42;
+    color: #474747;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px; }
+  /* line 67, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+  form input:-ms-input-placeholder, form textarea:-ms-input-placeholder, form select:-ms-input-placeholder {
+    opacity: 0.42;
+    color: #474747;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px; }
+  /* line 56, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+  form input::-webkit-input-placeholder, form textarea::-webkit-input-placeholder, form select::-webkit-input-placeholder {
+    opacity: 0.42;
+    color: #474747;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px; }
+/* line 82, ../../../resources/assets/sass/app/admin/_globals.scss */
+form .error {
+  position: relative; }
+  /* line 84, ../../../resources/assets/sass/app/admin/_globals.scss */
+  form .error .message {
+    background-color: #d21515;
+    color: #fff;
+    font-size: 12px;
+    width: auto;
+    position: absolute;
+    right: 0;
+    top: 27px;
+    padding: 4px 15px;
+    border-radius: 10px 10px 0px 10px;
+    font-weight: 400; }
+  /* line 96, ../../../resources/assets/sass/app/admin/_globals.scss */
+  form .error label {
+    color: #d21515; }
+  /* line 61, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+  form .error input:-moz-placeholder, form .error textarea:-moz-placeholder, form .error select:-moz-placeholder {
+    color: #d21515; }
+  /* line 64, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+  form .error input::-moz-placeholder, form .error textarea::-moz-placeholder, form .error select::-moz-placeholder {
+    color: #d21515; }
+  /* line 67, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+  form .error input:-ms-input-placeholder, form .error textarea:-ms-input-placeholder, form .error select:-ms-input-placeholder {
+    color: #d21515; }
+  /* line 56, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+  form .error input::-webkit-input-placeholder, form .error textarea::-webkit-input-placeholder, form .error select::-webkit-input-placeholder {
+    color: #d21515; }
+
+/* line 6, ../../../resources/assets/sass/app/admin/_setup.scss */
+body#template-login {
+  background-color: #f5f5f5; }
+  /* line 8, ../../../resources/assets/sass/app/admin/_setup.scss */
+  body#template-login .container {
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 25px;
+    box-sizing: border-box;
+    margin-top: 9%;
+    border-radius: 3px;
+    -moz-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.05); }
+
+/* line 22, ../../../resources/assets/sass/app/admin/_setup.scss */
+body#template-admin {
+  color: #505050;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300; }
+  /* line 27, ../../../resources/assets/sass/app/admin/_setup.scss */
+  body#template-admin header#template {
+    position: relative;
+    display: block;
+    background: #fff;
+    height: 130px;
+    overflow: hidden;
+    *zoom: 1; }
+    /* line 34, ../../../resources/assets/sass/app/admin/_setup.scss */
+    body#template-admin header#template .logo {
+      background: url("../images/logo.png");
+      display: block;
+      width: 265px;
+      height: 130px;
+      background-size: 60%;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      position: absolute;
+      left: 0;
+      top: 0; }
+    /* line 46, ../../../resources/assets/sass/app/admin/_setup.scss */
+    body#template-admin header#template section#navigation {
+      position: absolute;
+      top: 0;
+      left: 265px;
+      right: 0;
+      height: 130px; }
+    /* line 54, ../../../resources/assets/sass/app/admin/_setup.scss */
+    body#template-admin header#template .page-title {
+      font-size: 21px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 300;
+      border-left: 1px solid #979797;
+      padding: 5px 15px;
+      margin-top: 19px !important; }
+    /* line 63, ../../../resources/assets/sass/app/admin/_setup.scss */
+    body#template-admin header#template nav#main-nav {
+      float: right;
+      margin: 8px 35px; }
+      /* line 66, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin header#template nav#main-nav ul {
+        padding: 0;
+        list-style: none; }
+      /* line 67, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin header#template nav#main-nav li {
+        font-size: 18px;
+        margin-left: 10px;
+        display: inline-block; }
+        /* line 68, ../../../resources/assets/sass/app/admin/_setup.scss */
+        body#template-admin header#template nav#main-nav li a {
+          font-family: "Roboto Condensed", sans-serif;
+          color: #82a417; }
+    /* line 75, ../../../resources/assets/sass/app/admin/_setup.scss */
+    body#template-admin header#template nav#page-nav {
+      position: absolute;
+      top: 50%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #f0f0f0;
+      border-top: 1px solid #ddd;
+      border-left: 1px solid #ddd;
+      box-sizing: border-box; }
+      /* line 86, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin header#template nav#page-nav button, body#template-admin header#template nav#page-nav .btn, body#template-admin header#template nav#page-nav input[type=submit] {
+        padding: 23px 30px;
+        float: left;
+        height: 100%;
+        background: #fff;
+        font-weight: 400;
+        color: #656565;
+        font-size: 14px;
+        border-right: 1px solid #ddd; }
+        /* line 95, ../../../resources/assets/sass/app/admin/_setup.scss */
+        body#template-admin header#template nav#page-nav button strong, body#template-admin header#template nav#page-nav .btn strong, body#template-admin header#template nav#page-nav input[type=submit] strong {
+          font-weight: 700;
+          font-size: 16px; }
+        /* line 96, ../../../resources/assets/sass/app/admin/_setup.scss */
+        body#template-admin header#template nav#page-nav button:hover, body#template-admin header#template nav#page-nav .btn:hover, body#template-admin header#template nav#page-nav input[type=submit]:hover {
+          background: #f5f5f5; }
+      /* line 100, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin header#template nav#page-nav .right, body#template-admin header#template nav#page-nav input[type=submit] {
+        border-left: 1px solid #ddd;
+        border-right: 0px;
+        float: right; }
+      /* line 105, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin header#template nav#page-nav input[type=submit] {
+        background: #82a417;
+        color: #fff;
+        font-weight: 700;
+        border: 0;
+        border-radius: 0; }
+        /* line 111, ../../../resources/assets/sass/app/admin/_setup.scss */
+        body#template-admin header#template nav#page-nav input[type=submit]:hover {
+          background: #a5d11d; }
+      /* line 115, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin header#template nav#page-nav .back {
+        padding: 22px 24px; }
+        /* line 117, ../../../resources/assets/sass/app/admin/_setup.scss */
+        body#template-admin header#template nav#page-nav .back:after {
+          content: "\f060";
+          width: 16px;
+          height: 18px;
+          color: #656565;
+          font-family: FontAwesome;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 18px; }
+      /* line 128, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin header#template nav#page-nav .remove {
+        padding: 18px 24px; }
+        /* line 130, ../../../resources/assets/sass/app/admin/_setup.scss */
+        body#template-admin header#template nav#page-nav .remove:after {
+          -moz-transition: all 0.3s;
+          -o-transition: all 0.3s;
+          -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+          content: "\f1f8";
+          width: 22px;
+          height: 28px;
+          opacity: 0.82;
+          color: #656565;
+          font-family: FontAwesome;
+          font-size: 28px;
+          font-weight: 400;
+          line-height: 28px; }
+        /* line 143, ../../../resources/assets/sass/app/admin/_setup.scss */
+        body#template-admin header#template nav#page-nav .remove:hover:after {
+          color: #e31919; }
+    /* line 38, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+    body#template-admin header#template:after {
+      content: "";
+      display: table;
+      clear: both; }
+  /* line 152, ../../../resources/assets/sass/app/admin/_setup.scss */
+  body#template-admin aside#template {
+    position: absolute;
+    display: block;
+    background: #82a417;
+    top: 130px;
+    left: 0;
+    bottom: 0;
+    width: 265px;
+    overflow: hidden;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    /* line 163, ../../../resources/assets/sass/app/admin/_setup.scss */
+    body#template-admin aside#template hr {
+      height: 1px;
+      background-color: #bb9f2d;
+      width: 100%;
+      height: 1px;
+      opacity: 0.2; }
+    /* line 171, ../../../resources/assets/sass/app/admin/_setup.scss */
+    body#template-admin aside#template .user-info {
+      margin-top: 4px;
+      padding: 30px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+      /* line 174, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin aside#template .user-info h2, body#template-admin aside#template .user-info h5 {
+        color: #fff;
+        margin: 5px 0; }
+      /* line 175, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin aside#template .user-info h2 {
+        font-size: 22px;
+        font-weight: 400;
+        font-family: "Roboto Condensed", sans-serif; }
+      /* line 176, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin aside#template .user-info h5 {
+        opacity: 0.6;
+        font-weight: 300;
+        font-family: "Roboto", sans-serif;
+        font-size: 14px; }
+      /* line 177, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin aside#template .user-info p {
+        margin-top: 5px;
+        font-size: 14px;
+        padding-bottom: 28px; }
+    /* line 182, ../../../resources/assets/sass/app/admin/_setup.scss */
+    body#template-admin aside#template nav ul {
+      margin-top: 15px !important;
+      padding: 0 30px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+      /* line 186, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin aside#template nav ul li {
+        display: block;
+        font-size: 16px;
+        font-family: "Roboto Condensed", sans-serif;
+        margin-bottom: 15px; }
+        /* line 187, ../../../resources/assets/sass/app/admin/_setup.scss */
+        body#template-admin aside#template nav ul li i {
+          float: left;
+          margin-right: 10px;
+          color: rgba(255, 255, 255, 0.6);
+          top: 4px;
+          position: relative; }
+      /* line 200, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin aside#template nav ul:last-child {
+        border-bottom: 0; }
+    /* line 204, ../../../resources/assets/sass/app/admin/_setup.scss */
+    body#template-admin aside#template nav a {
+      position: relative;
+      display: block;
+      color: rgba(255, 255, 255, 0.6);
+      font-family: "Roboto Condensed";
+      font-size: 18px;
+      line-height: 22px;
+      font-weight: 400; }
+      /* line 214, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin aside#template nav a:hover {
+        color: #fff; }
+        /* line 216, ../../../resources/assets/sass/app/admin/_setup.scss */
+        body#template-admin aside#template nav a:hover:before {
+          color: #fff; }
+      /* line 222, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin aside#template nav a.account:before {
+        content: "\f007"; }
+      /* line 229, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin aside#template nav a.products:before {
+        content: "\f03a"; }
+      /* line 235, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin aside#template nav a.shops:before {
+        content: "\f1ad"; }
+      /* line 241, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin aside#template nav a.tastes:before {
+        content: "\f004"; }
+      /* line 247, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin aside#template nav a.errors:before {
+        content: "\f0ad  "; }
+      /* line 253, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin aside#template nav a.modules:before {
+        content: "\f1d9"; }
+      /* line 259, ../../../resources/assets/sass/app/admin/_setup.scss */
+      body#template-admin aside#template nav a:before {
+        font-size: 20px;
+        font-family: FontAwesome;
+        content: " ";
+        position: absolute;
+        display: block;
+        width: 30px;
+        height: 30px;
+        left: 0;
+        top: 0; }
+    /* line 273, ../../../resources/assets/sass/app/admin/_setup.scss */
+    body#template-admin aside#template nav a:hover {
+      opacity: 1; }
+  /* line 279, ../../../resources/assets/sass/app/admin/_setup.scss */
+  body#template-admin section#template-content {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    border-top: 1px solid #ddd;
+    display: block;
+    top: 130px;
+    left: 265px;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    padding: 1.75% 1.75%; }
+    /* line 12, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/susy-2.2.9/sass/susy/output/support/_clearfix.scss */
+    body#template-admin section#template-content:after {
+      content: " ";
+      display: block;
+      clear: both; }
+  /* line 293, ../../../resources/assets/sass/app/admin/_setup.scss */
+  body#template-admin header#template-header {
+    *zoom: 1;
+    padding: 12px 0; }
+    /* line 38, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+    body#template-admin header#template-header:after {
+      content: "";
+      display: table;
+      clear: both; }
+    /* line 297, ../../../resources/assets/sass/app/admin/_setup.scss */
+    body#template-admin header#template-header .btn {
+      float: right;
+      margin-top: -10px;
+      margin-left: 10px; }
+    /* line 303, ../../../resources/assets/sass/app/admin/_setup.scss */
+    body#template-admin header#template-header i {
+      float: left;
+      color: #7b7b7b;
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 26px;
+      margin-right: 12px; }
+    /* line 312, ../../../resources/assets/sass/app/admin/_setup.scss */
+    body#template-admin header#template-header h2 {
+      color: #7b7b7b;
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 38px;
+      margin: 0;
+      margin-top: -7px;
+      float: left; }
+
+/* line 324, ../../../resources/assets/sass/app/admin/_setup.scss */
+section.panel {
+  margin-bottom: 1.72%;
+  background: #fff;
+  color: #493f47;
+  border: 1px solid #ddd;
+  padding: 30px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.12); }
+  /* line 336, ../../../resources/assets/sass/app/admin/_setup.scss */
+  section.panel header {
+    position: relative;
+    margin-bottom: 20px; }
+    /* line 339, ../../../resources/assets/sass/app/admin/_setup.scss */
+    section.panel header .top-right {
+      position: absolute;
+      right: 0;
+      bottom: 10px;
+      font-size: 16px; }
+    /* line 346, ../../../resources/assets/sass/app/admin/_setup.scss */
+    section.panel header h2 {
+      margin: 0;
+      margin-top: -8px;
+      margin-bottom: 10px;
+      color: #493f47;
+      font-family: "Roboto Condensed";
+      font-size: 21px;
+      font-weight: 300;
+      line-height: 38px;
+      font-family: "Roboto", sans-serif; }
+  /* line 361, ../../../resources/assets/sass/app/admin/_setup.scss */
+  section.panel h3 {
+    margin: 20px 0;
+    font-size: 16px; }
+  /* line 362, ../../../resources/assets/sass/app/admin/_setup.scss */
+  section.panel .content {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 12, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/susy-2.2.9/sass/susy/output/support/_clearfix.scss */
+    section.panel .content:after {
+      content: " ";
+      display: block;
+      clear: both; }
+  /* line 363, ../../../resources/assets/sass/app/admin/_setup.scss */
+  section.panel table.list, section.panel table.compact-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 0 20px 0;
+    color: #493f47;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400; }
+    /* line 371, ../../../resources/assets/sass/app/admin/_setup.scss */
+    section.panel table.list th, section.panel table.list td, section.panel table.compact-list th, section.panel table.compact-list td {
+      border-bottom: 1px solid #ddd;
+      padding: 12px 10px;
+      text-align: left;
+      font-size: 13px;
+      line-height: 100%; }
+      /* line 377, ../../../resources/assets/sass/app/admin/_setup.scss */
+      section.panel table.list th.alignright, section.panel table.list td.alignright, section.panel table.compact-list th.alignright, section.panel table.compact-list td.alignright {
+        text-align: right; }
+      /* line 381, ../../../resources/assets/sass/app/admin/_setup.scss */
+      section.panel table.list th p, section.panel table.list td p, section.panel table.compact-list th p, section.panel table.compact-list td p {
+        margin: 0; }
+      /* line 385, ../../../resources/assets/sass/app/admin/_setup.scss */
+      section.panel table.list th img, section.panel table.list td img, section.panel table.compact-list th img, section.panel table.compact-list td img {
+        max-width: 100px;
+        max-height: 50px; }
+      /* line 391, ../../../resources/assets/sass/app/admin/_setup.scss */
+      section.panel table.list th a, section.panel table.list td a, section.panel table.compact-list th a, section.panel table.compact-list td a {
+        color: #493f47; }
+        /* line 393, ../../../resources/assets/sass/app/admin/_setup.scss */
+        section.panel table.list th a.delete, section.panel table.list td a.delete, section.panel table.compact-list th a.delete, section.panel table.compact-list td a.delete {
+          color: #493f47; }
+        /* line 397, ../../../resources/assets/sass/app/admin/_setup.scss */
+        section.panel table.list th a.edit, section.panel table.list td a.edit, section.panel table.compact-list th a.edit, section.panel table.compact-list td a.edit {
+          color: #493f47; }
+        /* line 401, ../../../resources/assets/sass/app/admin/_setup.scss */
+        section.panel table.list th a:hover, section.panel table.list td a:hover, section.panel table.compact-list th a:hover, section.panel table.compact-list td a:hover {
+          color: #82a417;
+          text-decoration: underline; }
+    /* line 407, ../../../resources/assets/sass/app/admin/_setup.scss */
+    section.panel table.list th, section.panel table.compact-list th {
+      padding-bottom: 1%;
+      border-bottom: 3px solid #ddd;
+      font-size: 14px; }
+  /* line 410, ../../../resources/assets/sass/app/admin/_setup.scss */
+  section.panel table.compact-list td, section.panel table.compact-list th {
+    padding: 10px 0; }
+  /* line 415, ../../../resources/assets/sass/app/admin/_setup.scss */
+  section.panel .btn.remove {
+    background: transparent;
+    padding: 0;
+    margin: -5px 0; }
+    /* line 419, ../../../resources/assets/sass/app/admin/_setup.scss */
+    section.panel .btn.remove:after {
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+      content: "\f1f8";
+      opacity: 0.82;
+      color: #656565;
+      font-family: FontAwesome;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 28px; }
+    /* line 430, ../../../resources/assets/sass/app/admin/_setup.scss */
+    section.panel .btn.remove:hover {
+      text-decoration: none; }
+      /* line 432, ../../../resources/assets/sass/app/admin/_setup.scss */
+      section.panel .btn.remove:hover:after {
+        color: #e31919; }
+  /* line 438, ../../../resources/assets/sass/app/admin/_setup.scss */
+  section.panel.centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none; }
+  /* line 444, ../../../resources/assets/sass/app/admin/_setup.scss */
+  section.panel.compact {
+    padding: 20px; }
+    /* line 446, ../../../resources/assets/sass/app/admin/_setup.scss */
+    section.panel.compact header {
+      margin-bottom: 10px; }
+
+/* line 458, ../../../resources/assets/sass/app/admin/_setup.scss */
+section#template-content header.fixed-top, section#template-content aside.fixed-left, section#template-content aside.fixed-right {
+  position: fixed;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin: 0;
+  padding: 0;
+  top: 130px;
+  left: 265px;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: auto; }
+  /* line 471, ../../../resources/assets/sass/app/admin/_setup.scss */
+  section#template-content header.fixed-top .panel, section#template-content aside.fixed-left .panel, section#template-content aside.fixed-right .panel {
+    margin: 0;
+    padding: 0;
+    border: 0; }
+/* line 480, ../../../resources/assets/sass/app/admin/_setup.scss */
+section#template-content aside.fixed-left.incl-fixed-top, section#template-content aside.fixed-right.incl-fixed-top {
+  top: 192px; }
+/* line 485, ../../../resources/assets/sass/app/admin/_setup.scss */
+section#template-content aside.fixed-left {
+  right: auto;
+  width: 150px;
+  border: 0;
+  border-right: 1px solid #ddd;
+  border-top: 1px solid #ddd; }
+  /* line 492, ../../../resources/assets/sass/app/admin/_setup.scss */
+  section#template-content aside.fixed-left button, section#template-content aside.fixed-left .btn, section#template-content aside.fixed-left .button {
+    background: #fff;
+    color: #656565;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: normal;
+    padding: 13px 10px;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    text-align: right; }
+    /* line 502, ../../../resources/assets/sass/app/admin/_setup.scss */
+    section#template-content aside.fixed-left button:hover, section#template-content aside.fixed-left .btn:hover, section#template-content aside.fixed-left .button:hover {
+      background: #f5f5f5;
+      color: #82a417; }
+    /* line 506, ../../../resources/assets/sass/app/admin/_setup.scss */
+    section#template-content aside.fixed-left button span, section#template-content aside.fixed-left .btn span, section#template-content aside.fixed-left .button span {
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      color: #999;
+      font-size: 16px; }
+/* line 515, ../../../resources/assets/sass/app/admin/_setup.scss */
+section#template-content aside.fixed-right {
+  left: auto;
+  width: 350px;
+  border: 0;
+  border-left: 1px solid #ddd;
+  border-top: 1px solid #ddd; }
+  /* line 524, ../../../resources/assets/sass/app/admin/_setup.scss */
+  section#template-content aside.fixed-right form label:first-child, section#template-content aside.fixed-right form input:first-child {
+    margin-top: 0; }
+  /* line 527, ../../../resources/assets/sass/app/admin/_setup.scss */
+  section#template-content aside.fixed-right form .row {
+    display: block;
+    margin: 15px 20px 5px 20px; }
+  /* line 532, ../../../resources/assets/sass/app/admin/_setup.scss */
+  section#template-content aside.fixed-right form label.inline {
+    margin: 0; }
+  /* line 537, ../../../resources/assets/sass/app/admin/_setup.scss */
+  section#template-content aside.fixed-right h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 17px 20px;
+    margin: 20px 0;
+    color: #A4A4A4;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd; }
+    /* line 546, ../../../resources/assets/sass/app/admin/_setup.scss */
+    section#template-content aside.fixed-right h3:first-child {
+      border-top: 0;
+      margin-top: 0; }
+/* line 550, ../../../resources/assets/sass/app/admin/_setup.scss */
+section#template-content header.fixed-top {
+  background: #ededed;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  bottom: auto;
+  height: 61px; }
+  /* line 558, ../../../resources/assets/sass/app/admin/_setup.scss */
+  section#template-content header.fixed-top button, section#template-content header.fixed-top .btn, section#template-content header.fixed-top .button {
+    background: #fff;
+    color: #4D4D4D;
+    font-size: 18px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: normal;
+    padding: 20px;
+    width: 151px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    float: left; }
+    /* line 571, ../../../resources/assets/sass/app/admin/_setup.scss */
+    section#template-content header.fixed-top button.close, section#template-content header.fixed-top .btn.close, section#template-content header.fixed-top .button.close {
+      width: auto;
+      width: 65px;
+      font-family: "Roboto", sans-serif;
+      color: #82a417; }
+    /* line 577, ../../../resources/assets/sass/app/admin/_setup.scss */
+    section#template-content header.fixed-top button.back, section#template-content header.fixed-top .btn.back, section#template-content header.fixed-top .button.back {
+      background-color: #ededed; }
+    /* line 581, ../../../resources/assets/sass/app/admin/_setup.scss */
+    section#template-content header.fixed-top button.submit, section#template-content header.fixed-top .btn.submit, section#template-content header.fixed-top .button.submit {
+      background: #82a417;
+      color: #fff;
+      font-weight: 700; }
+    /* line 587, ../../../resources/assets/sass/app/admin/_setup.scss */
+    section#template-content header.fixed-top button.floatright, section#template-content header.fixed-top .btn.floatright, section#template-content header.fixed-top .button.floatright {
+      float: right;
+      border: 0;
+      border-left: 1px solid #ddd; }
+    /* line 593, ../../../resources/assets/sass/app/admin/_setup.scss */
+    section#template-content header.fixed-top button:hover, section#template-content header.fixed-top .btn:hover, section#template-content header.fixed-top .button:hover {
+      background: #f5f5f5;
+      color: #82a417;
+      font-weight: 400; }
+/* line 601, ../../../resources/assets/sass/app/admin/_setup.scss */
+section#template-content article {
+  position: fixed;
+  top: 130px;
+  left: 265px;
+  bottom: 0;
+  right: 0; }
+  /* line 607, ../../../resources/assets/sass/app/admin/_setup.scss */
+  section#template-content article.incl-fixed-top {
+    top: 192px; }
+  /* line 611, ../../../resources/assets/sass/app/admin/_setup.scss */
+  section#template-content article.incl-fixed-left {
+    left: 415px; }
+  /* line 615, ../../../resources/assets/sass/app/admin/_setup.scss */
+  section#template-content article.incl-fixed-right {
+    right: 350px; }
+/* line 620, ../../../resources/assets/sass/app/admin/_setup.scss */
+section#template-content .global-error-message {
+  background-color: #eaadad;
+  border-radius: 3px;
+  color: #d21515;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 22px;
+  margin-bottom: 1.72%;
+  box-sizing: border-box; }
+
+/* line 633, ../../../resources/assets/sass/app/admin/_setup.scss */
+.selector .selectwrapper {
+  position: relative;
+  min-height: 45px; }
+/* line 638, ../../../resources/assets/sass/app/admin/_setup.scss */
+.selector .selectbox {
+  position: absolute;
+  left: 0;
+  right: 50px;
+  width: auto; }
+/* line 645, ../../../resources/assets/sass/app/admin/_setup.scss */
+.selector .buttonholder {
+  position: absolute;
+  left: auto;
+  right: 0;
+  width: 42px; }
+  /* line 650, ../../../resources/assets/sass/app/admin/_setup.scss */
+  .selector .buttonholder input {
+    font-size: 41px;
+    padding: 0;
+    width: 100%;
+    line-height: 100%; }
+
+/* line 659, ../../../resources/assets/sass/app/admin/_setup.scss */
+.linked-items {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  /* line 664, ../../../resources/assets/sass/app/admin/_setup.scss */
+  .linked-items .item {
+    position: relative;
+    width: 100%;
+    padding: 18px 0 18px 20px;
+    height: 50px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    line-height: 100%;
+    -moz-box-shadow: 1px 1px 1px 0 rgba(198, 198, 198, 0.5);
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(198, 198, 198, 0.5);
+    box-shadow: 1px 1px 1px 0 rgba(198, 198, 198, 0.5); }
+    /* line 678, ../../../resources/assets/sass/app/admin/_setup.scss */
+    .linked-items .item span {
+      font-weight: 500;
+      color: #544751; }
+    /* line 682, ../../../resources/assets/sass/app/admin/_setup.scss */
+    .linked-items .item .icon {
+      width: 36px;
+      border-left: 1px solid #fff;
+      text-align: center;
+      font-size: 16px; }
+    /* line 688, ../../../resources/assets/sass/app/admin/_setup.scss */
+    .linked-items .item .unlink {
+      color: #b97695; }
+    /* line 691, ../../../resources/assets/sass/app/admin/_setup.scss */
+    .linked-items .item span.right {
+      margin-right: 15px; }
+  /* line 697, ../../../resources/assets/sass/app/admin/_setup.scss */
+  .linked-items.large .item {
+    font-size: 14px;
+    padding: 25px 0 25px 25px;
+    height: 65px;
+    margin: 10px 0; }
+    /* line 703, ../../../resources/assets/sass/app/admin/_setup.scss */
+    .linked-items.large .item span {
+      font-weight: 500; }
+    /* line 707, ../../../resources/assets/sass/app/admin/_setup.scss */
+    .linked-items.large .item .title {
+      font-size: 16px; }
+    /* line 711, ../../../resources/assets/sass/app/admin/_setup.scss */
+    .linked-items.large .item .icon {
+      width: 55px;
+      border-left: 1px solid #fff;
+      text-align: center;
+      font-size: 23px;
+      margin-top: -2px; }
+  /* line 720, ../../../resources/assets/sass/app/admin/_setup.scss */
+  .linked-items.large.sortable .item {
+    padding-left: 46px !important; }
+    /* line 722, ../../../resources/assets/sass/app/admin/_setup.scss */
+    .linked-items.large.sortable .item:before {
+      background-size: 16px;
+      width: 40px; }
+
+/* line 731, ../../../resources/assets/sass/app/admin/_setup.scss */
+.sortable .item, .sortable td:first-child, .sortable th:first-child, .sortable-table .item, .sortable-table td:first-child, .sortable-table th:first-child {
+  position: relative;
+  padding-left: 30px !important;
+  cursor: move; }
+  /* line 735, ../../../resources/assets/sass/app/admin/_setup.scss */
+  .sortable .item:before, .sortable td:first-child:before, .sortable th:first-child:before, .sortable-table .item:before, .sortable-table td:first-child:before, .sortable-table th:first-child:before {
+    background: url("../images/draggable-icon.png");
+    background-size: 11px;
+    background-position: center;
+    background-repeat: no-repeat;
+    content: "";
+    letter-spacing: -5px;
+    font-size: 41px;
+    color: #ccc;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    padding: 1px 9px 1px 0; }
+
+/* line 755, ../../../resources/assets/sass/app/admin/_setup.scss */
+.popup {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+  /* line 765, ../../../resources/assets/sass/app/admin/_setup.scss */
+  .popup .bg {
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0;
+    visibility: hidden;
+    opacity: 0; }
+  /* line 778, ../../../resources/assets/sass/app/admin/_setup.scss */
+  .popup .inner {
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, 100%);
+    -ms-transform: translate(-50%, 100%);
+    -webkit-transform: translate(-50%, 100%);
+    transform: translate(-50%, 100%);
+    visibility: hidden;
+    background: #fff;
+    min-width: 400px;
+    padding: 30px;
+    box-sizing: border-box;
+    -moz-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.05);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; }
+    /* line 797, ../../../resources/assets/sass/app/admin/_setup.scss */
+    .popup .inner header h2 {
+      font-family: "Roboto", sans-serif;
+      font-weight: 300;
+      font-size: 25px; }
+  /* line 804, ../../../resources/assets/sass/app/admin/_setup.scss */
+  .popup.visible {
+    visibility: visible; }
+    /* line 806, ../../../resources/assets/sass/app/admin/_setup.scss */
+    .popup.visible .bg {
+      visibility: visible;
+      opacity: 0.4; }
+    /* line 810, ../../../resources/assets/sass/app/admin/_setup.scss */
+    .popup.visible .inner {
+      visibility: visible;
+      opacity: 1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+
+/* line 825, ../../../resources/assets/sass/app/admin/_setup.scss */
+#sortable-menu th {
+  background-color: #eee; }
+
+/* line 832, ../../../resources/assets/sass/app/admin/_setup.scss */
+#menu-list .name_html {
+  padding-left: 30px;
+  width: 60%; }
+/* line 833, ../../../resources/assets/sass/app/admin/_setup.scss */
+#menu-list .price_html {
+  width: 10%;
+  text-align: right; }
+/* line 834, ../../../resources/assets/sass/app/admin/_setup.scss */
+#menu-list .description {
+  width: 25%; }
+/* line 835, ../../../resources/assets/sass/app/admin/_setup.scss */
+#menu-list .is_active {
+  width: 7.5%; }
+/* line 836, ../../../resources/assets/sass/app/admin/_setup.scss */
+#menu-list .in_menu {
+  width: 15%; }
+/* line 837, ../../../resources/assets/sass/app/admin/_setup.scss */
+#menu-list .edit {
+  width: 5%; }
+/* line 838, ../../../resources/assets/sass/app/admin/_setup.scss */
+#menu-list .delete {
+  width: 3%; }
+/* line 840, ../../../resources/assets/sass/app/admin/_setup.scss */
+#menu-list table {
+  margin: 0; }
+  /* line 842, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #menu-list table .heading th {
+    border-top: 1px solid #ddd;
+    border-bottom-width: 1px; }
+  /* line 847, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #menu-list table.sortable-table:first-of-type .heading th {
+    border-top: 0; }
+  /* line 851, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #menu-list table td {
+    background-color: #fff;
+    box-sizing: border-box;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+/* line 858, ../../../resources/assets/sass/app/admin/_setup.scss */
+#menu-list .heading th {
+  font-weight: 400;
+  line-height: 100%;
+  color: #83747f;
+  font-size: 16px; }
+/* line 864, ../../../resources/assets/sass/app/admin/_setup.scss */
+#menu-list .heading th:last-child:after {
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  margin-top: -3px;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 5px 0 5px;
+  border-color: #9B9B9B transparent transparent transparent; }
+/* line 881, ../../../resources/assets/sass/app/admin/_setup.scss */
+#menu-list .collapsed th:last-child:after {
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg); }
+/* line 885, ../../../resources/assets/sass/app/admin/_setup.scss */
+#menu-list .collapsed tbody {
+  opacity: 0;
+  visibility: hidden; }
+/* line 890, ../../../resources/assets/sass/app/admin/_setup.scss */
+#menu-list .collapsed td {
+  position: relative;
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 0;
+  border-color: #fff; }
+  /* line 898, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #menu-list .collapsed td p, #menu-list .collapsed td button, #menu-list .collapsed td a {
+    height: 0;
+    padding: 0; }
+
+/* line 908, ../../../resources/assets/sass/app/admin/_setup.scss */
+#order-receipt header h2 {
+  float: left; }
+/* line 911, ../../../resources/assets/sass/app/admin/_setup.scss */
+#order-receipt header .payment-status {
+  float: right;
+  display: block; }
+  /* line 915, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #order-receipt header .payment-status h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    float: right;
+    color: #dc8c36; }
+  /* line 923, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #order-receipt header .payment-status .payment-method {
+    float: right;
+    clear: both; }
+  /* line 927, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #order-receipt header .payment-status.paid h2 {
+    color: #82a417; }
+/* line 932, ../../../resources/assets/sass/app/admin/_setup.scss */
+#order-receipt header .order-status {
+  margin: -17px 0 10px 0;
+  clear: both;
+  float: left;
+  color: #D21515;
+  font-weight: 500;
+  font-size: 15px; }
+/* line 942, ../../../resources/assets/sass/app/admin/_setup.scss */
+#order-receipt .list {
+  color: #544751; }
+  /* line 945, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #order-receipt .list input[type=checkbox] {
+    margin: -1px; }
+  /* line 950, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #order-receipt .list th input[type=checkbox] {
+    margin-bottom: 5px; }
+  /* line 955, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #order-receipt .list tbody td {
+    padding: 18px 10px;
+    vertical-align: top; }
+  /* line 959, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #order-receipt .list .amount, #order-receipt .list .product-info {
+    padding-left: 0px;
+    padding-right: 10px; }
+  /* line 965, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #order-receipt .list .product-info span.variation-value, #order-receipt .list .product-info p {
+    margin: 5px 0; }
+  /* line 968, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #order-receipt .list .product-info .variation-value {
+    color: #dc8c36;
+    font-weight: 500;
+    display: block; }
+  /* line 975, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #order-receipt .list h4, #order-receipt .list .amount {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0; }
+  /* line 981, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #order-receipt .list .price, #order-receipt .list .summary td {
+    font-size: 16px; }
+  /* line 985, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #order-receipt .list .price {
+    text-align: right; }
+  /* line 988, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #order-receipt .list .variations {
+    color: #dc8c36;
+    font-size: 14px; }
+  /* line 992, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #order-receipt .list .total {
+    font-weight: 500; }
+  /* line 995, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #order-receipt .list .notes {
+    font-size: 14px;
+    padding-top: 2px; }
+/* line 1001, ../../../resources/assets/sass/app/admin/_setup.scss */
+#order-receipt .notes {
+  font-size: 16px;
+  color: #b97695; }
+/* line 1005, ../../../resources/assets/sass/app/admin/_setup.scss */
+#order-receipt .user_details {
+  margin-bottom: -45px;
+  font-size: 14px;
+  line-height: 150%; }
+  /* line 1006, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #order-receipt .user_details strong {
+    font-weight: 500;
+    font-size: 15px; }
+
+/* line 1015, ../../../resources/assets/sass/app/admin/_setup.scss */
+#order-list h3 {
+  color: #9B9B9B;
+  margin: 25px 0 5px 0; }
+/* line 1020, ../../../resources/assets/sass/app/admin/_setup.scss */
+#order-list tr.selected td {
+  background: #493f47;
+  color: #fff; }
+  /* line 1023, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #order-list tr.selected td a {
+    color: #fff; }
+
+/* line 1029, ../../../resources/assets/sass/app/admin/_setup.scss */
+#open-orders th, #open-orders td {
+  padding: 18px 10px; }
+/* line 1033, ../../../resources/assets/sass/app/admin/_setup.scss */
+#open-orders th {
+  border: 0 !important; }
+/* line 1036, ../../../resources/assets/sass/app/admin/_setup.scss */
+#open-orders .checkbox {
+  width: 16px;
+  padding: 0; }
+/* line 1039, ../../../resources/assets/sass/app/admin/_setup.scss */
+#open-orders .priority-1 .checkbox {
+  background: #DE5153; }
+/* line 1040, ../../../resources/assets/sass/app/admin/_setup.scss */
+#open-orders .priority-1 td {
+  background: #F9E3E3;
+  border-color: #fff;
+  color: #AE0D0D; }
+  /* line 1044, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #open-orders .priority-1 td a {
+    color: #AE0D0D; }
+/* line 1046, ../../../resources/assets/sass/app/admin/_setup.scss */
+#open-orders .priority-1.first-of-priority td {
+  border-top: 3px solid #DE5153; }
+/* line 1051, ../../../resources/assets/sass/app/admin/_setup.scss */
+#open-orders .priority-2 .checkbox {
+  background: #F2B06E; }
+/* line 1052, ../../../resources/assets/sass/app/admin/_setup.scss */
+#open-orders .priority-2 td {
+  background: #FDF2E8;
+  border-color: #fff;
+  color: #B25C00; }
+  /* line 1056, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #open-orders .priority-2 td a {
+    color: #B25C00; }
+/* line 1058, ../../../resources/assets/sass/app/admin/_setup.scss */
+#open-orders .priority-2.first-of-priority td {
+  border-top: 3px solid #F2B06E; }
+/* line 1063, ../../../resources/assets/sass/app/admin/_setup.scss */
+#open-orders .priority-3 .checkbox {
+  background: #B4C873; }
+/* line 1064, ../../../resources/assets/sass/app/admin/_setup.scss */
+#open-orders .priority-3 td {
+  background: #F1F4E5;
+  border-color: #fff;
+  color: #465B03; }
+  /* line 1068, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #open-orders .priority-3 td a {
+    color: #465B03; }
+/* line 1070, ../../../resources/assets/sass/app/admin/_setup.scss */
+#open-orders .priority-3.first-of-priority td {
+  border-top: 3px solid #B4C873; }
+
+/* line 1077, ../../../resources/assets/sass/app/admin/_setup.scss */
+#openinghours .timerules .item {
+  padding: 18px 0;
+  height: 50px;
+  padding-left: 32px;
+  font-size: 14px; }
+  /* line 1082, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #openinghours .timerules .item span {
+    color: #544751; }
+  /* line 1083, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #openinghours .timerules .item .title {
+    font-weight: 300; }
+  /* line 1086, ../../../resources/assets/sass/app/admin/_setup.scss */
+  #openinghours .timerules .item strong {
+    font-weight: 500; }
+/* line 1090, ../../../resources/assets/sass/app/admin/_setup.scss */
+#openinghours .timerules .item:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  bottom: -1px;
+  width: 20px;
+  background: #222; }
+/* line 1100, ../../../resources/assets/sass/app/admin/_setup.scss */
+#openinghours .timerules .item.closed:before {
+  background: #DC4646; }
+/* line 1103, ../../../resources/assets/sass/app/admin/_setup.scss */
+#openinghours .timerules .item.pickup:before {
+  background: #ABC263; }
+/* line 1106, ../../../resources/assets/sass/app/admin/_setup.scss */
+#openinghours .timerules .item.delivery:before {
+  background: #F2A75D; }
